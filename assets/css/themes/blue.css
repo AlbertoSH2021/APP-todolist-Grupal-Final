@@ -1,0 +1,71 @@
+﻿/* que etiquetas cambiaran de color' */
+body{
+    background-color: rgb(135, 118, 233);
+  }
+ h1 {
+ color:#0941f8ea;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+  p {
+ color:#2549BB;
+ }
+     /*  */
+ 
+ 
+     div.blog-left{
+       background-color: rgba(77, 108, 110, 0.418);
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   div.blog-right{
+       background-color: rgba(185, 189, 197, 0.459);
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   
+   .fun-head-grid{
+       color: #2549BB;
+   }
+ 
+       /*  */
+       .da-slider{
+         background-color:rgba(5, 3, 27, 0.76);
+       
+         }
+   
+   .da-slider h2{
+         color:rgba(138, 121, 214, 0.829);
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         }
+   
+   .da-slider h3{
+     color:rgba(134, 108, 104, 0.829);
+     
+      }
+   .da-slider p{
+      color:rgb(155, 145, 201);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+   /*  */
+     /*  */
+     
+ /* el boton */
+ .custom-btn-one {
+    border-color: #2549BB;
+ }
+    
+ /* El borde de los iconos */
+ 
+  #home-sec .main-img {     
+    border:5px solid #2549BB;
+ }
+  #home-sec .main-img-2 {
+    border:5px solid #2549BB;
+ }
+     .icon-round:hover {
+         background-color:#2549BB;
+     }
+ 
+ .icon-round-active {
+       background-color:#2549BB;
+ }
+ 
+ 

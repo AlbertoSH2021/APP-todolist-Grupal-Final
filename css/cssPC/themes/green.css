@@ -1,0 +1,42 @@
+﻿
+ h1 {
+color:#0d8686a6;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    /*  */
+    .da-slider{
+      background-color:rgba(14, 12, 2, 0.74);
+      }
+
+.da-slider h2{
+      color:rgb(6, 166, 172);
+      font-family: fantasy;
+      font-weight: bold;
+      }
+
+.da-slider h3{
+  color:rgba(136, 132, 95, 0.829);
+  
+   }
+.da-slider p{
+   color:rgb(126, 202, 212);
+   font-family: fantasy;
+   
+  
+  }
+/*  */
+div.blog-left{
+  background-color: rgba(246, 247, 160, 0.932);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.blog-right{
+  background-color: rgba(112, 209, 204, 0.692);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fun-head-grid{
+  color: rgb(0, 180, 252);
+}
+
+  /*  */
+  /*  */

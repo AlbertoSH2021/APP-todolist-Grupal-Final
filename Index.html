@@ -1,0 +1,639 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>Interfaz TodoList</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+
+		<!-- Estilo para texto en movimiento -->
+		<link rel="stylesheet" type="text/css" href="css/textoMovimiento.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+		<!-- fin -->
+
+
+		<!-- ojo es importante poner este orden los scripts -->
+			<!-- <script src="js/jsPC/jquery-1.10.2.js"></script>  -->
+			<!-- <script src="js/jsPC/styleSwitcher.js"></script> -->
+			<script src="assets/js/jquery-1.10.2.js"></script>
+		<script src="assets/js/styleSwitcher.js"></script>
+
+				<!-- ESTILO DE LA PAGINA -->
+				<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+				<!-- ESLAIDER Y MUNU PARA DESPLAGAR SLIDER -->
+				<script type="text/javascript" src="js/jquery.min.js"></script>
+				<link rel="stylesheet" type="text/css" href="css/slider.css" />
+				<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+		<!-- ChatBot _________________________________________________________________________________________________-->
+		<script type="text/javascript" src="js/js chat bot/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/js chat bot/jquery.convform.js"></script>
+		<script type="text/javascript" src="js/js chat bot/custom.js"></script>
+		<!-- ChatBot _________________________________________________________________________________________________-->
+
+				<script type="text/javascript" src="js/jquery.cslider.js"></script>
+				<script type="text/javascript">
+					$(function() {
+					
+						$('#da-slider').cslider({
+							autoplay	: true,
+							bgincrement	: 450
+						});
+					
+					});
+				</script>
+				<!-- fin -->
+
+		<!-- GREGADOS -->  
+		<!-- ChatBot _________________________________________________________________________________________________-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/css chat bot/style.css">
+		<link rel="stylesheet" type="text/css" href="css/css chat bot/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/css chat bot/jquery.convform.css">
+
+
+		<!-- link iconos movimiento -sustituir luego -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<!-- BOOTSTRAP CORE STYLE CSS -->
+		<link href="css/cssPC/bootstrap.css" rel="stylesheet" />
+
+
+		<!-- colores menu pc slider -->
+		<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+
+			<link href="assets/css/styleSwitcher.css" rel="stylesheet" />
+		
+			<link href="assets/css/themes/pink.css" id="mainCSS" rel="stylesheet" />
+
+		<!-- ICONO DE PC PARA CAMBIAR COLORES-->
+		<!-- <link href="css/cssPC/iconoPC.min.css" rel="stylesheet" />  -->
+		<!-- STILO PARA CAMBIAR COLOR -->
+		<!-- <link href="css/cssPC/MENUcolores.css" rel="stylesheet" />  -->
+		<!-- <link href="css/cssPC/themes/pink.css" id="mainCSS" rel="stylesheet" /> -->
+
+
+			<!-- Bootstrap core CSS -->
+				<!-- css para el diseño de footer -->
+			<link href="css/css menu/main.css" rel="stylesheet">
+			
+</head>
+
+
+<!-- _____________________________________________________________________________________ -->
+<body style="background-color: rgba(223, 221, 219, 0.966); " class="body">
+		<!-- Menu button -->
+	
+
+
+
+    <!--___________________________________________MENU DESPLEGABLE cambiar color _____________________________ -->
+    <div class="switcher" style="left:-50px;">
+        <a id="switch-panel" class="hide-panel">
+            <i class="fa fa-desktop"></i>
+
+        </a>
+        <p style="font-size:10px">Tema</p>
+        <ul class="colors-list">
+            <li><a title="Pink" id="pink" class="pink" ></a></li>
+            <li><a title="Green" id="green" class="green" ></a></li>
+            <li><a title="Blue" id="blue" class="blue" ></a></li>
+             <li><a title="Brown" id="brown" class="brown" ></a></li>
+           
+        </ul>
+    </div>	
+    <!--___________________________________________FIN__________________________ -->
+
+
+<!-- este slider es para un acceso rapido a diversas secciones del sistema -->
+
+<!-- ___________________________1_______slider header____class="wow bounceIn animated"_cambiar color______________________________________________ -->		
+<div class="slider_bg s7">
+		
+				<!---SLIDER----->
+			<div id="da-slider" class="da-slider">
+				
+
+				<!-- planetas -->
+				<div class="da-slide">
+					
+					  <h2 class="title wow bounceIn animated" >Ingieneria<br>Software 2</h2> 
+					  <h3 class="title " id="title-1"><img src="images/img slider/dom.png" alt="" class="fa-spin"><em><span>
+						<div class="wrap icon"> 
+						
+						<img src="images/img slider/lodge.png" alt="" class="">
+					  	<img src="images/img slider/montana (2).png" alt="" class="" >  
+					  </div> </i></span ></em></h3>
+                      
+
+                      <p class="description">Utiliza git&github para tus proyectos<br><i><a href="admin/InsertarUsuarios.php">Inicia Sesion</a> </i></p>  
+					  <p class="description"></p>
+				</div>
+
+				<!-- Dinosaurios -->
+				<div class="da-slide">
+					<h2 class="title">Metodologia<br>SCRUM</h2>
+					<h3 class="title " id="title-1"><img src="images/img slider/dom.png" alt="" class="fa-spin"><em><span>
+						<div class="wrap icon"> 
+					  	<img src="images/img slider/mochila.png" alt="" class="">
+					  	<img src="images/img slider/montana (2).png" alt="" class="" >
+					  
+					  </div> </i></span ></em></h3>
+                    <p class="description">Metodologias Agiles.<br><i><a href="admin/InsertarUsuarios.php">Registrate</a> </i></p> 
+					
+				</div>
+
+
+				<div class="da-slide">
+					<h2 class="title">EXTREME <br>PROGRAMING</h2>
+                    <h3 class="title " id="title-1"><img src="images/img slider/dom.png" alt="" class="fa-spin"><em><span>
+						<div class="wrap icon"> 
+					  	<img src="images/img slider/peruano.png" alt="" class="">
+					  	<img src="images/img slider/montana (2).png" alt="" class="" >
+					  
+					  </div> </i></span ></em></h3>
+                    <p class="description">Metodologias Agiles.<br><i><a href="galeria/index.html">Enviar whatsapp</a> </i></p>
+					
+				</div>
+
+
+
+				<div class="da-slide">
+					<h2 class="title">GIT<br>Linus Torvalds</h2>
+					<h3 class="title " id="title-1"><img src="images/img slider/dom.png" alt="" class="fa-spin"><em><span>
+						<div class="wrap icon"> 
+					  	<img src="images/img slider/peruano (1).png" alt="" class="">
+					  	<img src="images/img slider/montana (2).png" alt="" class="" >
+					  
+					  </div> </i></span ></em></h3>
+                    <p class="description">Sistema de control de Verciones.<br><i><a href="">Asitencia Chat Bot</a> </i></p>
+					
+				</div>	
+
+
+
+				<div class="da-slide">
+					<h2 class="title">GITHUB<br>Repositorio Remoto</h2>
+                    <h3 class="title " id="title-1"><img src="images/img slider/dom.png" alt="" class="fa-spin"><em><span>
+						<div class="wrap icon"> 
+					  	<img src="images/img slider/llama.png" alt="" class="">
+					  	<img src="images/img slider/montana (2).png" alt="" class="" >
+					  
+					  </div> </i></span ></em></h3>
+					  <p class="description">Dominio,hosting&repositorios gratis<br><i><a href="">Acceso rapido: <br> Click Iconos derechos</a> </i></p>
+                    
+				</div>
+				
+			</div>
+ 			<!---FIn Slider----->
+ </div>
+ 					<!-- fecha del header desplazamiento -->
+ <a  href="index.html" class="button scroll"><img src="" class="fa-spin"></a>	
+<!-- __________________________________fin_slider header___________________________________________________ -->		
+
+
+<!-- <div class="signup">	</div> -->
+
+
+<!-- __________________________________nav bar___________________________________________________ -->	
+
+
+
+
+	<!-- ENVIAR CORREO-mejorar -->
+	
+ 
+	
+
+					  
+<!---- fun ---->
+	
+<div class="wap"> 
+			
+	<div class="fun-head-grids">
+		<div class="fun-head-grid">
+			
+			<h1><em>2021<span></span > BLOG PERSONAL </em></h6>		
+				<em><h3>Ingenieria de Software 2</h3></em>
+					<hr>
+				</p>	
+				<em><h6>Proyecto Aplicacion de Lista de tareas</h2></em>	<hr>
+				<h6>Univercidad Tecnologica de los Andes</h3>	
+		</div><br><hr>
+		
+		<div class="fun-head-grid">
+			<img src="images/img body/beto.jpg" alt=""  /><br>
+			<h7>UTEA</h7>
+			<h6>Cusco-Peru</h7>									
+		</div>
+		
+		
+		
+		<div class="fun-head-grid">
+			<img src="images/img slider/utea.png" alt=""  /><br>
+			<h7>UTEA-CUSCO</h7>
+			<h6>Univercidad</h7>								
+		</div>
+
+		<div class="fun-head-grid">
+			<img src="images/descarga.png" alt="" width="91%" /><br>
+			<h7>ING Sistemas e Informatica</h7>
+			<h6>Escuela Profecional</h7>									
+		</div>
+		
+	</div>
+</div>
+
+<!----//End-fun---->
+<!-- __________________________________nav bar___________________________________________________ -->	
+
+
+<div class="blog s3" id="blog">	
+	<!-- SOCIAL FOOTER --->
+	<section id="contact"></section>
+	<div id="sf">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 dg">
+					<h4 class="ml">FACEBOOK</h4>
+					<p class="centered"><a href="https://www.facebook.com/alberto.sanchezhuaman/"><i class='bx bxl-facebook'></i></a></p>
+					<a href="https://www.facebook.com/alberto.sanchezhuaman/"><p class="ml">> Visitar Pagina </p></a>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 lg">
+					<h4 class="ml">TWITTER</h4>
+					<p class="centered"><a href="https://twitter.com/AlbertoSH20"><i class='bx bxl-twitter' ></i></a></p>
+					<a href="https://twitter.com/AlbertoSH20"><p class="ml">> Visitar Pagina </p></a>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 ddg">
+					<h4 class="ml">YOUTUBE</h4>
+					<p class="centered"><a href="https://www.youtube.com/channel/UCJStTYdqvAjijSiUx3f9KdA"><i class='bx bxl-youtube'></i></i></a></p>
+					<a href="https://www.youtube.com/channel/UCJStTYdqvAjijSiUx3f9KdA"><p class="ml">> Visitar Pagina </p></a>
+				</div>
+				
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Social Footer -->
+	
+	<!-- CONTACT FOOTER --->
+	<div id="cf">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+		        	<div id="mapwrap">
+						<iframe height="300" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.2748314425357!2d-71.96945838573059!3d-13.518718174701691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd7e19618b469%3A0xff41beb5214790b4!2sUTEA%20Universidad%20Tegnol%C3%B3gica%20de%20los%20Andes!5e0!3m2!1ses!2spe!4v1638117012876!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						
+					</div>
+					
+				</div><!--col-lg-8-->
+				<div class="col-lg-3">
+					
+					<p>
+						<strong>Univercidad Tecnologica de los Andes</strong> CUSCO<br/>
+						<strong><img src="images/img slider/utea.png" alt="" width="20%"> <a href="https://utea.edu.pe/">https://utea.edu.pe/</a></strong> 
+					</p>
+                    <p>Alumno: <br><br><img src="images/img body/betowhatsaapp.jpg" alt=""> <strong> Alberto Sanchez Huaman </strong></p>
+					<p>
+						<strong>Fijo: </strong>  (084) 224613<br/>
+					    <strong>movil:</strong>	 +51 976 357951 <br>
+						<strong>Mail:</strong>	 <a href="mailto:201523437i@utea.edu.pe">201523437i@utea.edu.pe</a>
+					</p>
+					
+
+				</div><!--col-lg-4-->
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Contact Footer -->
+
+</div>	 
+
+
+<style>
+
+	.image-icon-whatsapp{
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		top: 50%;
+		width: 40px;
+		cursor: pointer;
+		transition: all 0.2s;
+		border-radius: 100%;
+		z-index: 1000000;
+		box-shadow: 0 0 2px 3px rgb(255, 255, 255);
+	}
+	.image-icon-whatsapp:hover{
+		transform: scale(0.9);
+		top: 51%;
+		width: 39px;
+	}
+
+	.image-icon-whatsapp:active{
+		transform: scale(0.8);
+	}
+
+	.formulariowtsp{
+		
+		width: 200px;
+		height: 285px;
+		border-radius: 5px;
+		position: absolute;
+		bottom: 90px;
+		right: 60px;
+		z-index: 100000;
+		color: rgba(83, 11, 33, 0.5);
+		font-family: 'Times New Roman', Times, serif;
+		font-weight: 900;
+		box-shadow: 0 2px 20px 0 rgba(35, 20, 59, 0.562);
+		background:rgba(224, 220, 221, 0.534);
+		padding: 5px 10px;
+		display: none;
+	}
+
+	.inputwts{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 10px;
+		font-family: arial;
+		font-size: 13px;
+		border-radius: 5px;
+		border:2px solid rgba(121, 111, 111, 0.342);
+		color: rgb(207, 65, 65);
+
+
+	}
+
+	.inputwts:focus{
+		outline: none;
+	}
+
+	.textareawts{
+		width: 100%;
+		min-width: 100%;
+		box-sizing: border-box;
+		height: 140px;
+		max-height: 140px;
+		min-height: 140px;
+		font-family: arial;
+		font-size: 13px;
+		border-radius: 5px;
+		padding: 5px;
+		border:1px solid rgba(0,0,0,0.19);
+		color: #666;
+
+
+	}
+
+	.textareawts:focus{
+		outline: none;
+	}
+
+	.newmessagewts{
+		font-family: arial;
+		display: block;
+		text-align: center;
+		width: 100%;
+		box-sizing: border-box;
+		line-height: 10px;
+	}
+	.btnwtsp{
+		width: 100%;
+		border: none;
+		padding: 5px;
+		background: #491017;
+		border-radius: 5px;
+		color: white;
+		cursor: pointer;
+	}
+
+	label{
+		font-family: arial;
+		font-size: 14px;
+		color: #333333;
+	}
+
+	.entrarysalir{
+		display: block;
+	}
+	.closemodal{
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 5px;
+		background: #00a82d;
+		width: 15px;
+		height: 15px;
+		border-radius: 100%;
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 10px;
+		line-height: 15px;
+		cursor: pointer;
+	}
+/* :_: */
+.login{
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		top: 60%;
+		width: 40px;
+		cursor: pointer;
+		transition: all 0.2s;
+		border-radius: 100%;
+		z-index: 1000000;
+		box-shadow: 0 0 2px 3px rgb(255, 255, 255);
+	}
+
+	.login:hover{
+		transform: scale(0.9);
+		top: 61%;
+		width: 39px;
+	}
+
+	.login:active{
+		transform: scale(0.8);
+	}
+
+</style>
+<div>
+	<div>
+		<form id="formulariowtsp" action="scripts/iniciar-sesion.php" method="POST" class="formulariowtsp" >
+			
+			<img src="images/descarga.png" style="width: 65px;margin-left: 50px;" class="newmessagewts">
+			<em><span class="closemodal" style="background-color: rgba(255, 245, 238, 0);width: 50px; height: 60px;top: -80px;left: -10px;">
+				<img src="images/img slider/utea.png" width="10000px" height="30px" ></span></em>
+
+				
+			<label for=""  ><em><span><i class='bx bxs-user-circle '></i></span ><strong>ID USUARIO</strong> </em></h3> </label>
+
+			<input  class="inputwts"  type="text"  placeholder="Usuario"  name="txtUsuario"  value="" autocomplete="off">
+			<label for=""><em><span><i class='bx bx-lock-open'></i> </span ><strong>PASSWORD</strong></em> </label>
+
+			<input  class="inputwts"  type="password" placeholder="Contraseña"  name="txtClave" value=""><br><br>
+			<button type="submit" id="sendbttn" class="btnwts">INICIAR SESION</button type="submit">
+		</form>
+	</div>
+	<img id="icon-whatsapp" class="image-icon-whatsapp " src="img/login.png " alt="" width="70">
+</div>
+
+
+
+
+
+
+<!-- login....--.-.-. -->
+<div>
+	<div>
+		<form id="formulariowtswwp" action="" class="formulariowtsp loginnn">
+			<a href="admin/InsertarUsuarios.php">Registrase</a>
+			<p class="newmessagewts"><strong></strong> </p> <span class="closemodal"><img src="img/trabajo-en-equipo.png" alt=""></span>
+			<label for=""  ><em><span><i class='bx bxs-user-circle '></i></span ><strong>ID USUARIO</strong> </em></h3> </label>
+			<input  class="inputwts" type="text" required="" placeholder="." autocomplete="off">
+			<label for=""><em><span><i class='bx bx-lock-open'></i> </span ><strong>PASSWORD</strong></em> </label>
+			<input  name=""  class="inputwts" placeholder="contraseña" type="password"><br><br>
+			<button type="submit" id="sendbttn" class="btnwtsp">INICIAR SESION</button type="submit">
+			
+		</form>
+	</div>
+	<a href="admin/InsertarUsuarios.php"><img id="icon-whatsapp " class="image-icon-whatsapppp login fa-spin-reverse" src="images/mercurio.png" alt="" width="70"></a>
+</div>
+<!-- mover y rotar texto -->
+<!-- <h3 class="title " id="title-1"><em><span><div class="wrap icon"> <i class='bx bxs-user-circle'></i></div> </span ></em></h3> -->
+	<!-- mover y rotar texto pequeño recomendado -->
+	<!-- <em><span></span ></em>    class="fa-spin"   class="fa-spin-reverse" -->
+
+		
+<script>
+	var IconWhatsapp = document.querySelector('#icon-whatsapp');
+	var formulariowtsp = document.getElementById('formulariowtsp');
+	var closemodal = document.querySelector('.closemodal');
+	var sendbttn = document.querySelector('#sendbttn');
+
+	
+	IconWhatsapp.addEventListener('click' , function(){
+		formulariowtsp.classList.toggle('entrarysalir')
+	})
+
+	closemodal.addEventListener('click' , function(){
+		formulariowtsp.classList.remove('entrarysalir')
+	})
+
+	sendbttn.addEventListener('click' , EnviarMensaje)
+
+	function EnviarMensaje(){
+
+
+		let name = document.querySelector('#inputname').value;
+		let mensaje = document.querySelector('#inputmensaje').value;
+	
+		let url = "https://api.whatsapp.com/send?phone=51976357951&text=Nombre: %0A" + name + "%0A%0AMensaje: %0A" + mensaje + "%0A";
+		window.open(url);
+
+	}
+
+</script>
+
+<!-- ChatBot _________________________________________________________________________________________________-->
+<div class="chat_icon">
+	<img src="admin/images/robot.png" alt="" class="fa fa-comments" aria-hidden="true">
+	
+	<style>
+		.fa-comments{
+			background-color: rgba(211, 226, 226, 0.945);
+			border-radius: 100%;
+			width: 50px;
+			
+			box-shadow: 0 0 2px 2px aqua;
+		}
+		.fa-comments:hover{
+			background-color: rgba(183, 255, 255, 0.993);
+			border-radius: 100%;
+			box-shadow: 0 0 2px 6px aqua;
+		}
+	</style>
+	<!-- <i class="fa fa-comments" aria-hidden="true"></i> -->
+</div>
+<!-- Programacion del Chat BOT -->
+<div class="chat_box">
+	<div class="my-conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
+
+      <select data-conv-question="Hola! Bienvenido a mi blog personal,en que puedo ayudarte? " name="category">
+		
+	<option value="WebDevelopment">Conozco a Alberto ?</option>
+        <option value="DigitalMarketing">Soy Visitante ?</option>
+      </select>
+
+      <div data-conv-fork="category">
+        <div data-conv-case="WebDevelopment">
+          <input type="text" name="domainName" data-conv-question="Muy bien.Podrias iniciar sesion para realizar tus actividades.<ol>
+			<li>Revisar la pagina principal e inicia secion</li>
+			<li>Si no eres usuario aun Registrate</li>
+			<li>Revisa mi proyecto TodoLIst inciando secion</li>
+			<li>Ingresa una nueva tarea o revisa las tereas pendientes</li>
+			<li>Al terminar no Olvides Cerrar secion</li>
+		</ol>. <br> Dejame saber que estas ahi,estas ahi?">   
+		<select data-conv-question="Muy bien.Elige la opcion"  name="category">
+			<option value="WebDevelopment">1.</option>
+			<option value="DigitalMarketing">2.</option>
+			<option value="DigitalMarketing">3.</option>
+			<option value="DigitalMarketing">4.</option>
+			<option value="DigitalMarketing">5.</option>
+		  </select> 
+        </div>
+        <div data-conv-case="DigitalMarketing" data-conv-fork="first-question2">
+          <input type="text" name="companyName" data-conv-question="Porfavor, cuantame en que puedo ayudarte o mandame un whatsapp<ol>
+			<li>Deseo visitar la pagina oficial.</li>
+			<li>Quiero solicitar informacion.</li>
+			<li>Deseo comunicarme con Alberto</li>
+			
+		     </ol>. <br> Dejame saber que estas ahi,estas ahi?" > 
+		  <select data-conv-question="Muy bien.Elige la opcion"  name="category">
+			<option value="WebDevelopment">1.</option>
+			<option value="DigitalMarketing">2.</option>
+			<option value="DigitalMarketing">3.</option>
+		  </select>
+        </div>
+      </div>
+
+      <input type="text" name="name" data-conv-question="Porfavor,antes de este paso brindame tu nombre. ">
+
+      <input type="text" data-conv-question="Muy bien {name}, <br> ahora puedes elegir una opcion." data-no-answer="true">
+
+
+      <input data-conv-question="Estoy para servirte." data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" type="email" name="email" required placeholder="What's your e-mail?">
+
+      <select data-conv-question="Please Conform">
+        <option value="Yes">ChatBot</option>
+      </select>
+
+  	</form>
+	</div>
+</div>
+<!-- ChatBot end -->
+<!-- ChatBot _________________________________________________________________________________________________-->
+
+
+
+
+<script type="text/javascript">
+	portfolioList = document.querySelectorAll('.portfolio-box');
+	portfolioList.forEach(function(portfolioPic) {
+		portfolioPic.addEventListener('click',function(){
+			bg = this.style.backgroundImage;
+			document.getElementById('port_pop_pic_bg').classList.add("active")
+			document.getElementById('port_pop_pic').style.backgroundImage = bg
+			document.getElementById('port_pop_pic').classList.add("active")
+		});	
+	})
+	document.getElementById('port_pop_pic_bg').addEventListener('click',function(){
+			document.getElementById('port_pop_pic_bg').classList.remove("active")
+			document.getElementById('port_pop_pic').classList.remove("active")
+	})
+</script>
+<!-- chat bot js -->
+</body>
+</html>

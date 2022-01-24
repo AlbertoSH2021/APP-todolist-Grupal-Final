@@ -1,0 +1,47 @@
+﻿h1 {
+  color:rgb(121, 10, 49);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h2 {
+      color:rgb(158, 74, 103);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+  p {
+    color:rgb(16, 124, 192);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+  div.blog-left{
+      background-color: rgba(142, 110, 165, 0.541);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  div.blog-right{
+      background-color: rgba(240, 162, 188, 0.514);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .fun-head-grid{
+      color: rgb(182, 102, 182);
+  }
+  
+      /*  */
+  .da-slider{
+      background-color:rgba(54, 3, 21, 0.747);
+      }
+  .da-slider h2{
+          color:rgba(219, 97, 142, 0.959);
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+  
+  .da-slider h3{
+      color:rgba(192, 99, 172, 0.829);
+       }
+  .da-slider p{
+       color:rgb(212, 124, 178);
+       font-family: 'Times New Roman', Times, serif;
+      }
+  /*  */
+  
+  
+  
+  

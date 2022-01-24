@@ -1,0 +1,134 @@
+
+/* TAMAÑO texo en movimiento */
+#title-1 {
+  text-align: center;
+  color: rgba(248, 248, 248, 0.993);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  font-style: normal;
+  font-weight: 100;
+}
+
+em {
+  font-family: 'EB Garamond', serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: block;
+  font-style: normal;
+  /* padding-top: 5px; */
+  text-shadow: 0.07em 0.07em 0 rgba(3, 3, 3, 0.2);
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+
+ em span {
+  display: inline-block;
+  -webkit-animation: flip 8s cubic-bezier(0.0, 0.0, 0.58, 1.0) infinite;
+  animation: flip 8s cubic-bezier(0.0, 0.0, 0.58, 1.0) infinite;
+}
+/*_____________________________TITULO MOVIMIENTOs*/
+
+
+/* <div class="wrap icon">  */
+/* <i class="fa fa-cog fa-spin"></i> <i class="fa fa-spin-reverse fa-cog"></i> <i class="fa fa-cog fa-spin spin3"></i> */
+					/* </div>  */
+
+/*___________________________________________ICONO_Proceso en movimiento*/
+.wrap {
+  width: 8em;
+  height: 7.58em;
+  font-size: 10px;
+  position: relative;
+}
+
+.wrap i {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 4em;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+}
+
+
+.wrap i:nth-child(2) {
+  font-size: 6em;
+  top: 0.4em;
+  left: 0.25em;
+}
+
+.wrap i:nth-child(3) {
+  font-size: 3em;
+  top: 0.2em;
+  left: 1.7em;
+}
+
+
+.fa-spin-reverse {
+  -webkit-animation: fa-spin-reverse 2s infinite linear;
+  animation: fa-spin-reverse 2s infinite linear;
+}
+/*MOVIMIENTO DE ICONOS */
+@-webkit-keyframes fa-spin-reverse {
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  0% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin-reverse {
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  0% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* centrar iconos o posicionar */
+
+.icon {
+  text-align: center;
+  color: #000000;
+  cursor: default;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  transition: color 0.5s ease;
+  font-size: 25px;
+}
+.fa-spin{
+  color: rgb(139, 95, 29);
+}
+.fa-spin-reverse{
+  color: #01070c;
+}
+.spin3{
+  color: rgba(114, 0, 207, 0.897);
+}
+.icon:hover {
+  color: #0099ff;
+}
+/* ____________________________________________Fin proceso en movimiento */
+
+
+
+
+
