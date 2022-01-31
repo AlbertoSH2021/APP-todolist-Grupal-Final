@@ -1,0 +1,143 @@
+
+
+.centered {
+    text-align: center;
+}
+
+
+.menu {
+    position: fixed;
+    
+    height: 100%;
+   
+    z-index: 1;
+    text-align: left;
+}
+.menu.menu-open {
+    right: 0;
+    
+}
+
+
+
+.menu a {
+    margin-left: 20px;
+    color: rgb(170, 147, 147);
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    color: rgba(2, 2, 2, 0.63);
+}
+
+
+.menu-close {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    top: 40px;
+    right: 5px;
+}
+
+
+#menuToggle {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 1456456;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 100%;
+    background: #fafafa;
+	border: solid rgb(255, 255, 255);
+	box-shadow:0 0 48px 1px rgb(41, 40, 40) ;
+}
+
+#menuToggle:hover {
+    background: #fafafa;
+	border: solid rgb(255, 255, 255);
+	box-shadow:0 0 48px 1px rgb(253, 253, 253) ;
+    width: 53px;
+    height: 53px;
+    transition: all .1s ease-in-out;
+}
+
+/*  */
+#sf .container {
+    width: 100%;}
+
+#sf .col-lg-4 {
+    margin: 0;
+    padding: 15px;
+}
+#sf .lg {
+    background-color: #0e8b94f5;
+}
+#sf .dg {
+    background-color: #20609cdc;
+}
+#sf .ddg {
+    background-color: #9c0d0ddc;
+}
+#sf h4 {
+    color: rgb(255, 255, 255);
+}
+#sf p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#sf i {
+    font-size: 70px;
+    color: rgb(236, 236, 236);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#sf i:hover {
+    font-size: 70px;
+    color: rgba(214, 130, 186, 0.856);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#cf p {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 15px;
+}
+#cf .container {
+    width: 100%}
+
+
+
+    /* extra chat bot */
+
+    .fa-comments{
+        border-radius: 100%;
+       border: solid rgb(252, 224, 66);
+       
+    }
+    .fa-comments:hover{
+        border-radius: 100%;
+       border: solid rgb(252, 224, 66);
+       box-shadow: 0 0 15px 6px rgb(189, 181, 66);
+    }
+    /* whatsapp icon */
+   
