@@ -152,18 +152,18 @@
     <div class="container">
             <div class="row row-icon ">
               <!--  -->
-                <div class="col-12 col-sm-10 col-md-6 col-lg-6 col-xl-12">
-                        <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3"><h4> <img src="utea.png" alt="" class="imagen_footer"></h4> </div>
-                        <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3"><h4> <img src="utea.png" alt="" class="imagen_footer"></h4> </div>
-                        <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3"><h4> <img src="utea.png" alt="" class="imagen_footer"></h4> </div>
-                        <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">  <p class="parrafo">Alberto Sanchez Huaman</h1> </div>
-                        <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">  <p class="parrafo">Manuel Efrain Ramirez Ayme</h1> </div>
-                        <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">  <p class="parrafo">Jose Luis Sanchez Avalos</h1></div>
+                <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-12">
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3"><h4> <img src="betowhatsaapp.jpg" alt="" class="imagen_footer"></h4> </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3"><h4> <img src="joseluis.jpeg" alt="" class="imagen_footer"></h4> </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3"><h4> <img src="manuel.jpeg" alt="" class="imagen_footer"></h4> </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">  <p class="parrafo">Alberto Sanchez Huaman</h1> </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">  <p class="parrafo">Manuel Efrain Ramirez Ayme</h1> </div>
+                        <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">  <p class="parrafo">Jose Luis Sanchez Avalos</h1></div>
                 </div>
                 <!--redes sociales  -->
                 <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
                     <div class="social-media">
-                          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"><a href="" class="social-media-icon"><i class='bx bxl-facebook-circle icono-legal' ></a></i> </div>
+                          <div class="col-12 col-sm-2 col-md-2 col-lg-12 col-xl-12"><a href="" class="social-media-icon"><i class='bx bxl-facebook-circle icono-legal' ></a></i> </div>
                           <div class="col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12"><a href="" class="social-media-icon"><i class='bx bxl-instagram icono-legal' ></i></a> </div>
                           <div class="col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12"><a href="" class="social-media-icon"><i class='bx bxl-youtube icono-legal'></i></a></div>
                           <div class="col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12"><a href="" class="social-media-icon"><i class='bx bxl-twitter icono-legal' ></i></a></div>
@@ -172,14 +172,14 @@
                 </div> 
                 <!-- informacion contactos -->
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3"><h4> Informacion Contactanos </h4> 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3"><h4>Docente: EDUARDO CHAVEZ VASQUEZ </h4> 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12"> alberto.andeanlodges@gmail.com</div>                  
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"><h4>Docente: EDUARDO CHAVEZ VASQUEZ </h4> 
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"> alberto.andeanlodges@gmail.com</div>                  
                 </div>
                 
              </div>
     </div>
     </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 fin1">© 2021 Todos los Derechos Reservados | Alberto Sanchez </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 fin1">© 2021 Todos los Derechos Reservados | Alberto Sanchez </div>
         </footer>
 
     </div>
