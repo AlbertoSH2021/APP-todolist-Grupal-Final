@@ -13,3 +13,12 @@ Indicaciones de restauracion del Proyecto:
   
   el proyecto deberia funcionar perfectamente. !no cambiar el nombre de la Base de DATOS !
   ya que las configuraciones de conxecion tiene el nombre de la BD
+
+          USUARIOS:
+  ingreso al sistema como administrador:
+  
+                      ADMIN: admin    contraseña: 1234
+                      
+  Ingreso al sistema como Usuario: 
+  
+                      Usuario: usuariotest   contraseña: 1234
