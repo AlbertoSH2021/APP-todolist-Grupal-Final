@@ -1,0 +1,8 @@
+.container-fluid{
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+.table-striped{
+    color: black;
+    background-color: rgba(95, 158, 160, 0.63);
+}
