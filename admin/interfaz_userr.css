@@ -1,0 +1,284 @@
+
+.blog-header{
+    top: 55px;
+   background-color: rgba(247, 17, 97, 0.974);
+   border-radius: 10px;
+   box-shadow: 0 0 6px 6px rgba(245, 245, 245, 0.733) ;
+   height: 220px;
+   width: 100%;
+}
+
+ 
+/* color usuario text */
+.text-center{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 0 0 2px 2px rgb(214, 194, 13);
+    border-radius: 5px;
+}
+.bx-user-circle{
+    color: rgb(219, 179, 1);
+    font-weight: 1200;
+    font-size: 80px;
+}
+ 
+/*boton cerrar sesion*/
+.btn-danger{
+    margin-right: 20%;
+    box-shadow: 0 0 2px rgba(0,0,0, 5) ;
+    font-weight: bold;
+}
+
+    .blog-header{
+        top: 5px;
+        margin-top: 5%; 
+    }
+    /*menu navegacion */
+    .navbar-fixed-top{
+       background-color: rgba(82, 22, 43, 0.446);
+       box-shadow: 0 0 3px 3px rgb(184, 136, 172);
+       height: 55px;
+       font-size: 40px;
+       font-family: monospace;
+       
+    }/*
+    .text-white{   
+    }*/
+    .text-white:hover{
+        font-size: 42px ;
+    }
+
+    /**/
+    /*seccion 2*/
+.galery{
+    
+    background: #bfa8ce;
+    
+    }
+    .contenedor-galeria{
+        
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .img-galeria{
+        object-fit: cover;
+        width: 15%;
+        display: block;
+        margin-bottom :20px; 
+        box-shadow: 0 0 6px rgba(0,0,0, 5) ;
+        
+        cursor: pointer;
+    }
+    
+    .imagen-light{
+        position: fixed;
+        background: rgba(0,0,0,.5 );
+        width: 100%;
+        height: 100%;
+        top:55px;/**/
+        left: -1%;/**/
+ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(200%);
+        transition: transform .2s ease-in-out;
+    
+    }
+    .show{
+        transform: translate(0);
+        /* sirve para sobreponer sobre todos los textos */
+        z-index: 9945454;
+    }
+    .agregar-imagen{
+        object-fit: cover;
+        width: 60%;
+        margin-left: 20%;/**/
+        border-radius: 10px;
+        transform: scale(0);
+        transition: transform .3s .2s;
+        
+    }
+    .showImage{
+        transform: scale(1);
+        
+    }
+    .bxs-x-circle{
+        position: absolute;
+        top:15px;
+        right: 90%;
+        width: 45px;
+        cursor: pointer;
+        color: blanchedalmond;
+        font-size: 25px;
+        
+    }
+    .bxs-x-circle:hover{
+        
+        color: rgba(7, 7, 7, 0.733);
+       font-size: 30px;
+        
+    }
+    
+    /**/
+    .contenedor-galeria
+      {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         
+      }
+    .img-galeria{
+        width: 80%;
+        height: 190px;
+        border-radius: 10px;
+        background-position: center;
+        box-shadow: 0 0 6px 6px rgba(0,0,0, 5) ;
+        margin-left: 5px;
+      }
+      .bxs-camera-plus{
+          z-index: 50;
+         font-size: 40px;
+         color: rgb(0, 0, 0);
+         cursor: pointer;
+      }
+      .agregar_foto{
+          margin-top: -15%;
+          margin-left: 60%;
+      }
+      .bxs-camera-plus:hover{
+        color: rgb(250, 10, 62);
+    }
+
+/* }me que
+de aqui 01/08/2021 */
+.col-lg-122{
+    box-shadow: 0px 6px 0 0 rgb(85, 3, 30)
+   
+}
+
+.tituloop{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow:  -2px 5px 4px  rgb(94, 84, 86);
+}
+    /*modulos*/
+    .h-md250{
+        background-color: rgba(228, 225, 225, 0.974);
+        margin-top: 20px;
+        border-radius: 10px;
+        color: rgba(8, 8, 8, 0.829);
+        box-shadow: 0 0 6px 6px rgba(196, 188, 188, 0.974) ;
+        top: -5px;
+    }
+    .h-md250:hover{
+      background: rgba(97, 93, 93, 0.336);
+    }
+
+    /*imagen hover dentro de un div - mejorado*/
+    .imagen_modulo{
+        
+        width: 100%;
+        height: 300px;
+        margin-top:0;
+        margin-bottom: 0;
+        border-radius: 10%;
+        background:url(/utea.png) no-repeat center center;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+        
+    }
+    .imagen_modulo:hover{
+        background:url(/smilee.jpg) no-repeat center center; 
+        box-shadow: 0 0 5px 5px rgb(40, 69, 71);
+    }
+
+    /**/
+    .wrapp{background: rgb(250, 10, 62);}
+    /* usuario */
+    .tituloUser{
+        color: rgb(247, 247, 247);
+        background-color: whitesmoke;
+    }
+    /*  */
+
+    /*footer*/
+    .footer{
+        background-color: rgba(53, 2, 20, 0.974);
+        color: rgba(255, 255, 255, 0.741);
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 0.1px;
+        justify-content:space-between;
+    }
+    
+    .parrafo{
+        text-align: left;
+    }
+/*
+   .bxl-facebook-circle{
+      size: 180px;
+   }*/
+   .social-media{
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+
+}
+    .social-media-icon{
+        display: inline-block;
+        background-color: rgba(248, 248, 255, 0.753);
+        width: 45px;
+        height: 45px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        text-align: center;
+        color: rgb(255, 225, 0);
+        margin-bottom: 10px;
+ 
+    }
+    .icono-legal{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .social-media-icon:hover{
+        background:rgb(226, 200, 4) ;
+        color: rgb(72, 21, 130); 
+       
+    }
+    .fin1{
+        color: darkgray;
+        background-color: rgb(5, 5, 5);
+        text-align: center;
+    }
+    .fin2{
+        color: darkgray;
+        background-color: rgb(5, 5, 5);
+        text-align: right;
+    }
+    .bxl-facebook-circle{
+        color: rgb(8, 8, 247);
+    }
+    .bxl-instagram{
+        color: rgb(68, 1, 49);
+    }
+    .bxl-youtube{
+        color: rgb(116, 13, 13);
+    }
+    .bxl-twitter{
+        color: rgb(6, 164, 175);
+    }
+    .bxl-discord{
+       
+        color: rgb(62, 7, 126);
+    }
+    .imagen_footer{
+       width: 180px;
+       height: 180px;
+       border-radius: 50%;
+       background-color: honeydew;
+    }
+    /*fin footer*/
